@@ -1,5 +1,5 @@
 const url = "https://imdb236.p.rapidapi.com/imdb/top250-movies";
-const apiKey = "87d9dae75fmsh15bef4e37981ba9p10afa1jsn0dacb099c2eb";
+const apiKey = "9f1bc49f99mshba75d3d99d3b5fep12f92ejsnd317f82277da";
 const localStorageKey = "imdbTop50Movies";
 const localStorageActionKey = "imdbTop250ActionMovies";
 const localStorageThrillerKey = "imdbTop250ThrillerMovies";
@@ -395,7 +395,6 @@ function addWatchlistEventListeners() {
 //     alert("Movie not found.");
 //   }
 // }
-
 
 function addToWatchlist(movieId) {
   const watchlist = JSON.parse(localStorage.getItem("watchlist")) || [];
