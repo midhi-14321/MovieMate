@@ -1,5 +1,5 @@
 const url = "https://imdb236.p.rapidapi.com/imdb/top250-movies";
-const apiKey = "9f1bc49f99mshba75d3d99d3b5fep12f92ejsnd317f82277da";
+const apiKey = "9f1bc49f99mshba75d3d99d3b5fep12f92ejsnd317f82277dab";
 const localStorageKey = "imdbTop50Movies";
 const localStorageActionKey = "imdbTop250ActionMovies";
 const localStorageThrillerKey = "imdbTop250ThrillerMovies";
