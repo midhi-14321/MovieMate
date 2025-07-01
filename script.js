@@ -27,7 +27,7 @@ async function fetchMovies() {
     // Check if the response contains movies
     const movies = data.movies || data.results || data;
     if (!movies || movies.length === 0) {
-      throw new Error("No movies found in the response.");
+      throw new Error("No movies found in the response");
     }
 
     //the first 50 movies in localStorage
